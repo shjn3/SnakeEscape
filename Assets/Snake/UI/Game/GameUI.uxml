@@ -1,0 +1,18 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Snake/UI/General.uss?fileID=7433441132597879392&amp;guid=672eacee00cb9694ab7797c4475083bd&amp;type=3#General"/>
+    <Style src="project://database/Assets/Snake/UI/Game/Game.uss?fileID=7433441132597879392&amp;guid=48c313bc29506444d8ba4fab363af770&amp;type=3#Game"/>
+    <ui:VisualElement name="Header" style="flex-grow: 1; position: absolute; top: auto; right: 0; left: 0; background-color: rgba(0, 0, 0, 0.78); height: 100px;">
+        <ui:VisualElement name="HorizontalLayer" style="flex-grow: 0; flex-direction: row; height: 50px; flex-shrink: 0; justify-content: center; translate: 0 10px;">
+            <ui:Label text="Score: 0/-1" name="ScoreLabel" style="-unity-text-align: middle-center; font-size: 25px; translate: 5px 0;"/>
+            <ui:Label text="Level 0" name="LevelLabel" style="-unity-text-align: middle-center; font-size: 25px; position: absolute;"/>
+            <ui:VisualElement style="flex-grow: 1;"/>
+            <ui:Button text="Refresh" name="RefreshButton" class="button" style="color: rgb(0, 0, 0); transform-origin: center;"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="Footer" style="flex-grow: 1; position: absolute; left: 0; right: 0; bottom: 0; height: 100px; background-color: rgba(0, 0, 0, 0.78);">
+        <ui:VisualElement name="HorizontalLayer" style="flex-grow: 0; flex-direction: row; height: 50px; flex-shrink: 0;">
+            <ui:Button text="Previous Level" name="PreviousLevelButton" class="button" style="color: rgb(0, 0, 0); transform-origin: center;"/>
+            <ui:Button text="Next Level" name="NextLevelButton" class="button" style="color: rgb(0, 0, 0); transform-origin: center;"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

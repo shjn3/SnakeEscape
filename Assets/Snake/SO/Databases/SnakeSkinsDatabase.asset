@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f411d403b12b3d04dacd82a0f6c978e2, type: 3}
+  m_Name: SnakeSkinsDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::Shine.EscapeSnake.SnakeSkinsDatabase
+  skins:
+  - head: {fileID: -2319502164784001171, guid: 5be0ea914fc497a43b38956bdb6919f5, type: 3}
+    body: {fileID: -7316824893534355895, guid: 5be0ea914fc497a43b38956bdb6919f5, type: 3}
+    tailTip: {fileID: -1866990458434001434, guid: 6dc4fc68aa053944482036f4e7527f97, type: 3}
+    tailBase: {fileID: 2249404223916717907, guid: 6dc4fc68aa053944482036f4e7527f97, type: 3}
+  - head: {fileID: -2417524555606443408, guid: 5be0ea914fc497a43b38956bdb6919f5, type: 3}
+    body: {fileID: 5406040176117031769, guid: 5be0ea914fc497a43b38956bdb6919f5, type: 3}
+    tailTip: {fileID: 8499582715530946976, guid: 6dc4fc68aa053944482036f4e7527f97, type: 3}
+    tailBase: {fileID: 4268529329472753569, guid: 6dc4fc68aa053944482036f4e7527f97, type: 3}
+  - head: {fileID: -2787025101994990326, guid: 5be0ea914fc497a43b38956bdb6919f5, type: 3}
+    body: {fileID: -8483534800637085718, guid: 5be0ea914fc497a43b38956bdb6919f5, type: 3}
+    tailTip: {fileID: 1685660509696140537, guid: 6dc4fc68aa053944482036f4e7527f97, type: 3}
+    tailBase: {fileID: 1550756393365413602, guid: 6dc4fc68aa053944482036f4e7527f97, type: 3}
+  - head: {fileID: -1418268813234673855, guid: 5be0ea914fc497a43b38956bdb6919f5, type: 3}
+    body: {fileID: -595126172358559431, guid: 5be0ea914fc497a43b38956bdb6919f5, type: 3}
+    tailTip: {fileID: -1254506670571494071, guid: 6dc4fc68aa053944482036f4e7527f97, type: 3}
+    tailBase: {fileID: -5563427984323765926, guid: 6dc4fc68aa053944482036f4e7527f97, type: 3}
+  - head: {fileID: -3867471054640161946, guid: 5be0ea914fc497a43b38956bdb6919f5, type: 3}
+    body: {fileID: 5684520143049934176, guid: 5be0ea914fc497a43b38956bdb6919f5, type: 3}
+    tailTip: {fileID: 5837866178643140630, guid: 6dc4fc68aa053944482036f4e7527f97, type: 3}
+    tailBase: {fileID: 9126132202873321898, guid: 6dc4fc68aa053944482036f4e7527f97, type: 3}
+  - head: {fileID: 6327703063071740964, guid: 5be0ea914fc497a43b38956bdb6919f5, type: 3}
+    body: {fileID: -5999045299937213350, guid: 6dc4fc68aa053944482036f4e7527f97, type: 3}
+    tailTip: {fileID: 5268964084567597175, guid: 6dc4fc68aa053944482036f4e7527f97, type: 3}
+    tailBase: {fileID: 6863737784027498366, guid: 6dc4fc68aa053944482036f4e7527f97, type: 3}
+  - head: {fileID: 2194497370581140219, guid: 5be0ea914fc497a43b38956bdb6919f5, type: 3}
+    body: {fileID: -1202249918879292807, guid: 5be0ea914fc497a43b38956bdb6919f5, type: 3}
+    tailTip: {fileID: 311544086695771832, guid: 6dc4fc68aa053944482036f4e7527f97, type: 3}
+    tailBase: {fileID: 8972117702237040546, guid: 6dc4fc68aa053944482036f4e7527f97, type: 3}
+  - head: {fileID: -8032028872079482501, guid: 5be0ea914fc497a43b38956bdb6919f5, type: 3}
+    body: {fileID: -8847928837474850294, guid: 5be0ea914fc497a43b38956bdb6919f5, type: 3}
+    tailTip: {fileID: -4613970074947836161, guid: 6dc4fc68aa053944482036f4e7527f97, type: 3}
+    tailBase: {fileID: -4347743473698322173, guid: 6dc4fc68aa053944482036f4e7527f97, type: 3}
+  - head: {fileID: -8253365681016051669, guid: 5be0ea914fc497a43b38956bdb6919f5, type: 3}
+    body: {fileID: 4410880171958534208, guid: 5be0ea914fc497a43b38956bdb6919f5, type: 3}
+    tailTip: {fileID: -395873507212947837, guid: 6dc4fc68aa053944482036f4e7527f97, type: 3}
+    tailBase: {fileID: -6986831926314098566, guid: 6dc4fc68aa053944482036f4e7527f97, type: 3}
+  - head: {fileID: 4777645752171761634, guid: 5be0ea914fc497a43b38956bdb6919f5, type: 3}
+    body: {fileID: 6171637502699611052, guid: 5be0ea914fc497a43b38956bdb6919f5, type: 3}
+    tailTip: {fileID: 6834869200729659805, guid: 6dc4fc68aa053944482036f4e7527f97, type: 3}
+    tailBase: {fileID: 4430699695440244341, guid: 6dc4fc68aa053944482036f4e7527f97, type: 3}
+  - head: {fileID: 4951938335286001016, guid: 5be0ea914fc497a43b38956bdb6919f5, type: 3}
+    body: {fileID: -6440910933122370349, guid: 6dc4fc68aa053944482036f4e7527f97, type: 3}
+    tailTip: {fileID: -1151308418109235252, guid: 6dc4fc68aa053944482036f4e7527f97, type: 3}
+    tailBase: {fileID: -2270914373886844384, guid: 6dc4fc68aa053944482036f4e7527f97, type: 3}
