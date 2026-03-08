@@ -42,6 +42,8 @@ namespace Shine.EscapeSnake.GamePlay
             }
 
             main.orthographicSize = defaultOrthorgraphicSize;
+
+            intersectionStrategy.UpdateLines();
         }
 
         private void OnDrag(Vector3 delta)

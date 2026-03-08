@@ -1,12 +1,14 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/Snake/UI/General.uss?fileID=7433441132597879392&amp;guid=672eacee00cb9694ab7797c4475083bd&amp;type=3#General"/>
     <Style src="project://database/Assets/Snake/UI/Game/Game.uss?fileID=7433441132597879392&amp;guid=48c313bc29506444d8ba4fab363af770&amp;type=3#Game"/>
-    <ui:VisualElement name="Header" style="flex-grow: 1; position: absolute; top: auto; right: 0; left: 0; background-color: rgba(0, 0, 0, 0.78); height: 100px;">
-        <ui:VisualElement name="HorizontalLayer" style="flex-grow: 0; flex-direction: row; height: 50px; flex-shrink: 0; justify-content: center; translate: 0 10px;">
-            <ui:Label text="Score: 0/-1" name="ScoreLabel" style="-unity-text-align: middle-center; font-size: 25px; translate: 5px 0;"/>
+    <ui:VisualElement name="Header" style="flex-grow: 1; position: absolute; top: auto; right: 0; left: 0;">
+        <ui:VisualElement name="HeaderBg" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Snake/Arts/Game/Background/blue_top_bg.png?fileID=2800000&amp;guid=f686b6375205c1849a46ac854f2360b6&amp;type=3#blue_top_bg&quot;); -unity-slice-left: 39; -unity-slice-top: 39; -unity-slice-right: 39; -unity-slice-bottom: 39; -unity-slice-scale: 0.7px; flex-wrap: wrap; flex-direction: column-reverse;"/>
+        <ui:VisualElement name="HorizontalLayer" style="flex-grow: 0; flex-direction: row; height: 100px; flex-shrink: 0; justify-content: center; translate: 0 10px;">
+            <ui:Label text="Score: 0/-1" name="ScoreLabel" style="-unity-text-align: middle-center; font-size: 25px; translate: 5px 0; position: absolute; top: 16px; left: auto; right: 32px;"/>
             <ui:Label text="Level 0" name="LevelLabel" style="-unity-text-align: middle-center; font-size: 25px; position: absolute;"/>
-            <ui:VisualElement style="flex-grow: 1;"/>
-            <ui:Button text="Refresh" name="RefreshButton" class="button" style="color: rgb(0, 0, 0); transform-origin: center;"/>
+            <ui:VisualElement style="flex-grow: 1; height: 85px;"/>
+            <ui:Button text="Pause" name="PauseButton" class="button" style="color: rgb(0, 0, 0); transform-origin: center; left: 20px; position: absolute; top: 19px;"/>
+            <ui:Button text="Refresh" name="RefreshButton" class="button" style="color: rgb(0, 0, 0); transform-origin: center; position: absolute; top: 26px; left: 102px;"/>
         </ui:VisualElement>
     </ui:VisualElement>
     <ui:VisualElement name="Footer" style="flex-grow: 1; position: absolute; left: 0; right: 0; bottom: 0; height: 100px; background-color: rgba(0, 0, 0, 0.78);">
